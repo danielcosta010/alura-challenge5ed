@@ -1,0 +1,39 @@
+.cards {
+  background: #F5F5F5;
+  padding: 4rem 8rem;
+}
+
+.cards__topo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  line-height: 3rem;
+}
+.cards__ver-tudo {
+  display: flex;
+  align-items: center;
+  color: #2A7AE4;
+  font-size: 1rem;
+  font-weight: 700;
+  gap: 1rem;
+}
+
+.cards__produtos {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.titulo__produto {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.preco {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.link__produto {
+  color: #2A7AE4;
+  font-size: 1rem;
+  font-weight: 700;
+}

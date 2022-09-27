@@ -1,0 +1,36 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.18rem;
+  margin: 0 7rem;
+}
+.cabecalho__logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.cabecalho__pesquisa {
+  background: url(../img/cabecalho/lupapng.png) no-repeat 95% 50%;
+  background-color: #F5F5F5;
+  border: none;
+  height: 2.5rem;
+  width: 25rem;
+  left: 13rem;
+  top: 5px;
+  border-radius: 20px;
+  padding: 8px 16px 8px 16px;
+}
+.cabecalho__botao-login {
+  border: 1px solid #2A7AE4;
+  background: transparent;
+  cursor: pointer;
+  padding: .6rem 3rem;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 19px;
+  
+  color: #2A7AE4;
+
+}
