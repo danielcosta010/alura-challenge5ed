@@ -1,6 +1,7 @@
 .cards {
   background: #F5F5F5;
   padding: 4rem 8rem;
+  
 }
 
 .cards__topo {
@@ -15,14 +16,18 @@
   color: #2A7AE4;
   font-size: 1rem;
   font-weight: 700;
-  gap: 1rem;
+  gap: 10px;
 }
-
+.produtos__descricao {
+  width: 100%;
+}
 .cards__produtos {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
   line-height: 2rem;
   margin-bottom: 3rem;
+  overflow-x: hidden;
 }
 .titulo__produto {
   font-size: 1rem;

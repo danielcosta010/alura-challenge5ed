@@ -3,19 +3,23 @@
   justify-content: space-between;
   align-items: center;
   height: 7.18rem;
-  margin: 0 7rem;
+  margin: 0 10%;
+}
+.cabecalho__imagem {
+  width: 150px;
 }
 .cabecalho__logo {
   display: flex;
   align-items: center;
   gap: 2rem;
+  width: 100%;
 }
 .cabecalho__pesquisa {
   background: url(../img/cabecalho/lupapng.png) no-repeat 95% 50%;
   background-color: #F5F5F5;
   border: none;
   height: 2.5rem;
-  width: 25rem;
+  width: 20rem;
   left: 13rem;
   top: 5px;
   border-radius: 20px;
