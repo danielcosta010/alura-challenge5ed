@@ -58,7 +58,6 @@
 }
 @media (max-width: 540px) {
   .cabecalho {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 2%;
     gap: 1rem;
