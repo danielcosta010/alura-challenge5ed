@@ -1,13 +1,10 @@
 .rodape {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: flex-start;
   background: #EAF2FD;
   padding: 4rem 8rem;
-}
-.rodape__logo {
-  display: flex;
-  align-items: flex-start;
 }
 .rodape__lista {
   list-style: none;
@@ -47,3 +44,38 @@
   padding: 2rem;
   text-align: center;
 }
+@media (max-width:940px) {
+  .rodape {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+  }
+  .rodape img {
+    grid-row: 1 / span 1;
+  }
+  .rodape__lista {
+    grid-row: 2 / span 3 ;
+    margin-left: .5rem;
+  }
+  .rodape__formulario {
+    grid-row: 1 / span 3;
+  }
+}
+@media (max-width: 540px) {
+  .rodape {
+    gap: .5rem;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .rodape img {
+    grid-row: 1;
+  }
+  .rodape__lista {
+    grid-row: 2 ;
+    margin-left: .5rem;
+  }
+  .rodape__formulario {
+    grid-row: 5;
+    margin-left: .5rem;
+    padding: 0;
+  }
+} 

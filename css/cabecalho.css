@@ -1,7 +1,9 @@
 .cabecalho {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  gap: 2rem;
+  justify-items: end;
   height: 7.18rem;
   margin: 0 10%;
 }
@@ -34,7 +36,31 @@
   font-weight: 100;
   font-size: 1rem;
   line-height: 19px;
-  
   color: #2A7AE4;
+}
+.cabecalho__lupa--pesquisa {
+  display: none;
+}
 
+@media (max-width: 740px) {
+  .cabecalho {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .cabecalho__pesquisa {
+    display: none;
+    width: 0;
+  }
+  .cabecalho__lupa--pesquisa {
+    display: block;
+  }
+}
+@media (max-width: 540px) {
+  .cabecalho {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2%;
+    gap: .5rem;
+  }
 }
