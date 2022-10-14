@@ -3,6 +3,7 @@
  
  Desafio em 4 semanas, desenvolvendo uma exemplo de loja virtual, a AluraGeek.
  
- O projeto foi a partir da ferramenta de design [Figma](https://www.figma.com/file/fR9qvy3gU53s2q5efeMpy9/AluraGeek---Challenge?node-id=0%3A1){:target="_blank" }.
- 
+ O projeto foi a partir da ferramenta de design <a href="https://www.figma.com/file/fR9qvy3gU53s2q5efeMpy9/AluraGeek---Challenge?node-id=0%3A1" target="_blank">Figma</a>.
+
+Se quiser visitar a página <a href="https://danielcosta010.github.io/alura-challenge5ed/" target="_blank">click aqui</a>.
  
