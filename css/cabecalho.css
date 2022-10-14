@@ -45,7 +45,7 @@
 @media (max-width: 768px) {
   .cabecalho {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     justify-items: end;
   }
   .cabecalho__pesquisa {
@@ -58,7 +58,7 @@
 }
 @media (max-width: 540px) {
   .cabecalho {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     margin: 0 5%;
     gap: 1rem;
   }
