@@ -9,7 +9,6 @@
 .rodape__lista {
   list-style: none;
   line-height: 3rem;
-  
 }
 .rodape__formulario {
   padding: 1rem;
@@ -65,6 +64,7 @@
     gap: .5rem;
     grid-template-columns: 1fr;
     padding: 1rem;
+    justify-items: center;
   }
   .rodape img {
     grid-row: 1;
@@ -72,6 +72,7 @@
   .rodape__lista {
     grid-row: 2 ;
     margin-left: .5rem;
+    text-align: center;
   }
   .rodape__formulario {
     grid-row: 5;

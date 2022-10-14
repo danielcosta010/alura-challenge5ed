@@ -42,11 +42,11 @@
   display: none;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   .cabecalho {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    justify-items: end;
   }
   .cabecalho__pesquisa {
     display: none;
@@ -59,7 +59,7 @@
 @media (max-width: 540px) {
   .cabecalho {
     grid-template-columns: repeat(3, 1fr);
-    margin: 2%;
+    margin: 0 5%;
     gap: 1rem;
   }
 }
