@@ -1,0 +1,45 @@
+
+.adicionar {
+  align-items: center;
+  background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.adicionar__input {
+  width: 50%;
+  padding: 1rem;
+}
+.adicionar__titulo {
+  font-size: 1.5rem;
+  align-self: flex-start;
+  margin-left: 25%;
+}
+.adicionar__botao {
+  display: block;
+  background-color: #2A7AE4;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 1rem;
+  width: 50%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .adicionar__input {
+    width: 85%;
+    padding: 1rem;
+  }
+  .adicionar__titulo {
+    font-size: 1.5rem;
+    align-self: flex-start;
+    margin-left: 8%;
+  }
+  .adicionar__botao {
+    width: 85%;
+  }
+}
+

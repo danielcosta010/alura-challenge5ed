@@ -1,6 +1,6 @@
 .cabecalho {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 3fr;
   align-items: center;
   gap: 2rem;
   justify-items: end;
@@ -8,7 +8,7 @@
   margin: 0 10%;
 }
 .cabecalho__imagem {
-  width: 150px;
+  width: 100px;
 }
 .cabecalho__logo {
   display: flex;
@@ -25,16 +25,16 @@
   left: 13rem;
   top: 5px;
   border-radius: 20px;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 16px;
 }
 .cabecalho__botao-login {
   border: 1px solid #2A7AE4;
   background: transparent;
   cursor: pointer;
-  padding: .6rem 3rem;
+  padding: .6rem 2rem;
   font-style: normal;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 12px;
   line-height: 19px;
   color: #2A7AE4;
 }
@@ -45,8 +45,8 @@
 @media (max-width: 768px) {
   .cabecalho {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    justify-items: end;
+    grid-template-columns: 1fr 5fr .5fr;
+    justify-items: center;
   }
   .cabecalho__pesquisa {
     display: none;
@@ -58,7 +58,7 @@
 }
 @media (max-width: 540px) {
   .cabecalho {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 5fr .5fr;
     margin: 0 5%;
     gap: 1rem;
   }

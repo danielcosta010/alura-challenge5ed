@@ -6,30 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/cabecalho__login.css">
   <title>Alura Geek | Challenge 5 Edição</title>
 </head>
 <body>
-  <header class="cabecalho__login">
+  <header class="cabecalho">
     <div class="cabecalho__logo">
       <img class="cabecalho__imagem" src="img/cabecalho/Logo.svg" alt="Logo da alura Geek">
       <input type="text" class="cabecalho__pesquisa" placeholder="O que deseja encontrar?">
     </div>
+    <a href="tela_login.html"><button class="cabecalho__botao-login">Menu administrador</button></a>
     <img src="img/cabecalho/lupapng.png"  class="cabecalho__lupa--pesquisa" alt="">
   </header>
+  <main>
 
-  <main class="sessao">
-    <form class="formulario">
-      <h3 class="formulario__titulo">Iniciar Sessão</h3>
-      <input type="email" name="email" class="formulario__input" placeholder="Escreva seu email">
-      <input type="text" name="senha" class="formulario__input" placeholder="Digite sua senha" pattern="(?=^.{8,}$)((?=.*\d)(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="A senha deve conter, no minimo 1 letra maiúscula, 1 letra minúscula, 1 numero e 1 caractere especial">
-      <button class="formulario__botao">
-        Entrar
-      </button>
+    <form class="adicionar">
+      <h4 class="adicionar__titulo">Adicionar novo produto</h4>
+      <input class="adicionar__input" type="url" placeholder="Url da imagem">
+      <input class="adicionar__input" type="text" placeholder="Categoria">
+      <input class="adicionar__input" type="text" placeholder="Nome do produto">
+      <input class="adicionar__input" type="text" placeholder="Preço do produto">
+      <textarea class="adicionar__input" placeholder="Deccrição do produto" rows="5"></textarea>
+      <a href="#" class="adicionar__botao">Adicionar produto</a>
     </form>
   </main>
-
-
 
   <footer class="rodape">
     
@@ -54,3 +53,6 @@
   <div class="desenvolvedor">
     <p>Desenvolvido por Daniel Costa <br>2022</p>
   </div>
+  
+</body>
+</html>
