@@ -1,0 +1,19 @@
+.cabecalho__login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 7.18rem;
+  margin: 0 10%;
+  align-items: center;
+  justify-items: end;
+}
+@media (max-width:768px) {
+
+  .cabecalho__pesquisa {
+    display: none;
+    width: 0;
+  }
+  .cabecalho__lupa--pesquisa {
+    display: block;
+  }
+}
+

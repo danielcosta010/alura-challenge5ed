@@ -6,34 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/todos__produtos.css">
   <title>Alura Geek | Challenge 5 Edição</title>
 </head>
 <body>
-  <header class="cabecalho">
+  <header class="cabecalho__produtos">
     <div class="cabecalho__logo">
       <img class="cabecalho__imagem" src="img/cabecalho/Logo.svg" alt="Logo da alura Geek">
       <input type="text" class="cabecalho__pesquisa" placeholder="O que deseja encontrar?">
     </div>
-    <a href="tela_login.html"><button class="cabecalho__botao-login">Login</button></a>
     <img src="img/cabecalho/lupapng.png"  class="cabecalho__lupa--pesquisa" alt="">
   </header>
   <main>
-    <section class="banner">
-      <h1 class="banner__titulo">Dezembro Promocional</h1>
-      <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
-      <a href="#"><button class="banner__botao">Ver Consoles</button></a>
-    </section>
-
     <section class="cards">
-      <div class="cards__topo">
-        <h2>Stars Wars</h2>
-        <a href="tela_todos--produtos.html">
-          <p class="cards__ver-tudo">Ver tudo <img class="cards__ver-tudo" src="img/cards/seta.png" alt="Seta link para ver todos os produtos"></p>
-        </a>
+      <div class="todos__produtos">
+        <h2>Todos os produtos</h2>
+        
+          <a href=""><button class="todos__produtos--botao">Adicionar Produtos</button></a>
+        
       </div>
       <article class="cards__produtos">
         <figure>
-          <img src="img/cards/xicara.svg" alt="Foto produto uma xicara filme stars wars">
+          <div>
+            <img src="img/cards/xicara.svg" alt="Foto produto uma xicara filme stars wars">
+          </div>
           <figcaption>
             <h3 class="titulo__produto">Xicara Stars wars</h3>
             <p class="preco">R$ 60,00</p>
@@ -94,13 +90,6 @@
         </figure>
       </article>
 
-      
-      <div class="cards__topo">
-        <h2>Consoles</h2>
-        <a href="tela_todos--produtos.html">
-          <p class="cards__ver-tudo">Ver tudo <img class="cards__ver-tudo" src="img/cards/seta.png" alt="Seta link para ver todos os produtos"></p>
-        </a>
-      </div>
       <article class="cards__produtos">
         <figure>
           <img src="img/cards/controle.png" alt="Foto produto, controle de console">
@@ -164,12 +153,6 @@
         </figure>
       </article>
 
-      <div class="cards__topo">
-        <h2>Diversos</h2>
-        <a href="#">
-          <p class="cards__ver-tudo">Ver tudo <img class="cards__ver-tudo" src="img/cards/seta.png" alt="Seta link para ver todos os produtos"></p>
-        </a>
-      </div>
       <article class="cards__produtos">
         <figure>
           <img src="img/cards/camisaatari.png" alt="Foto produto, camisa do atari">
@@ -261,4 +244,3 @@
   
 </body>
 </html>
-

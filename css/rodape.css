@@ -43,7 +43,7 @@
   padding: 2rem;
   text-align: center;
 }
-@media (max-width:940px) {
+@media (max-width:768px) {
   .rodape {
     grid-template-columns: 1fr 1fr;
     padding: 2rem;
@@ -59,7 +59,7 @@
     grid-row: 1 / span 3;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 480px) {
   .rodape {
     gap: .5rem;
     grid-template-columns: 1fr;
