@@ -7,3 +7,4 @@
 
 Se quiser visitar a página <a href="https://danielcosta010.github.io/alura-challenge5ed/" target="_blank">click aqui</a>.
  
+![banner Alura Geek](https://github.com/danielcosta010/alura-challenge5ed/blob/master/img/banner/bannerAluraGeek.png)
